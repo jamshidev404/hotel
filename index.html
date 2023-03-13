@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>My Hotel</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container">
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="link">О нас</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="link">Апартаменты</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="link">Как добраться</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="link">Отзывы</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="link">Контакты</a>
+              </li>
+            </ul>
+            <button class="header__menu-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button>
+          </nav>
+          <a href="+7 (950) 477-73-65" class="header__tel"
+            >+7 (950) 477-73-65</a
+          >
+        </div>
+      </header>
+
+      <main class="main">
+        <!--======= Banner section start =======-->
+        <section class="hero">
+          <div class="hero__container container">
+            <img src="./images/banner.svg" alt="banner" class="hero__banner" />
+            <div class="hero__content">
+              <div class="hero__overtitle">Апарт-отель</div>
+              <div class="hero__title title">«SkyPlazaYalta»</div>
+              <div class="hero__subtitle">г. Ялта, ул. Дражинского 48В</div>
+            </div>
+            <div class="hero__button button">
+              <div class="banner__text">Забронировать</div>
+            </div>
+          </div>
+        </section>
+
+        <!--======= About Us section start qilinadi=======-->
+        <section class="about">
+          <div class="about__container container">
+            <side class="about__left left">
+              <div class="left__block block">
+                <h2 class="left__title main__title">О нас</h2>
+                <p class="left__text text main__desc">
+                  Апарт-отель «SkyPlazaYalta» расположен на закрытой территории
+                  в шаговой доступности от моря и центра Ялты. В нашем отеле
+                  есть всё для вашего комфортабельного отдыха.
+                </p>
+                <p class="left__text text main__desc">
+                  К вашим услугам: уникальные по своему дизайну и комфорту,
+                  просторные номера с видом на море и город. Детские площадки,
+                  охраняемая территория и подземный паркинг.
+                </p>
+                <p class="left__text text main__desc">
+                  Самые разнообразные услуги от фотосессии до круиза по морю на
+                  комфортабельной яхте, разнообразят и украсят ваш отпуск.
+                </p>
+              </div>
+              <div class="left__block">
+                <img
+                  src="./images/left-bottom.svg"
+                  alt=""
+                  class="left__image"
+                />
+              </div>
+            </side>
+            <side class="about__right right">
+              <img src="./images/right-top.svg" alt="" />
+              <img src="./images/right-bottom.svg" alt="" />
+            </side>
+          </div>
+        </section>
+
+        <!--======= About Us 2 section start qilinadi =======-->
+        <section class="about__us">
+          <div class="about__us__container container">
+            <div class="about__wrapper block">
+              <div class="about__card">
+                <div class="main__title about__us__title">О нас</div>
+                <div class="descriptions">
+                  <div class="main__desc">
+                    Апарт-отель «SkyPlazaYalta» расположен на закрытой
+                    территории в шаговой доступности от моря и центра Ялты. В
+                    нашем отеле есть всё для вашего комфортабельного отдыха.
+                  </div>
+                  <div class="main__desc">
+                    К вашим услугам: уникальные по своему дизайну и комфорту,
+                    просторные номера с видом на море и город. Детские площадки,
+                    охраняемая территория и подземный паркинг.
+                  </div>
+                  <div class="main__desc">
+                    Самые разнообразные услуги от фотосессии до круиза по морю
+                    на комфортабельной яхте, разнообразят и украсят ваш отпуск.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--============= Number fond section start ===============-->
+        <section class="cards">
+          <div class="cards__container container">
+            <h2 class="cards__title main__title">Номерной фонд</h2>
+            <div class="cards__items">
+              <div class="cards__item item block">
+                <div class="item__image">
+                  <img src="./images/number_card.svg" alt="" />
+                </div>
+                <div class="item__desc">
+                  2-комнатные апартаменты с видом на море и во двор, 3 этаж
+                </div>
+                <div class="item__price">от 3200₽<span>cутки</span></div>
+              </div>
+
+              <div class="cards__item item block">
+                <div class="item__image">
+                  <img src="./images/number_card.svg" alt="" />
+                </div>
+                <div class="item__desc">
+                  2-комнатные апартаменты с видом на море и во двор, 3 этаж
+                </div>
+                <div class="item__price">от 3200₽<span>cутки</span></div>
+              </div>
+
+              <div class="cards__item item block">
+                <div class="item__image">
+                  <img src="./images/number_card.svg" alt="" />
+                </div>
+                <div class="item__desc">
+                  2-комнатные апартаменты с видом на море и во двор, 3 этаж
+                </div>
+                <div class="item__price">от 3200₽<span>cутки</span></div>
+              </div>
+
+              <div class="cards__item item block">
+                <div class="item__image">
+                  <img src="./images/number_card.svg" alt="" />
+                </div>
+                <div class="item__desc">
+                  2-комнатные апартаменты с видом на море и во двор, 3 этаж
+                </div>
+                <div class="item__price">от 3200₽<span>cутки</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--============= Response section start ===============-->
+        <section class="response">
+          <div class="response__container container">
+            <div class="response__title main__title">
+              Ваш отдых - наша ответсвенность
+            </div>
+            <div class="response__items">
+              <div class="response__item block">
+                <img
+                  src="./images/Ellipse 9.svg"
+                  alt=""
+                  class="response__image"
+                />
+                <div class="response__text">Трансфер</div>
+              </div>
+
+              <div class="response__item block">
+                <img
+                  src="./images/Ellipse 10.svg"
+                  alt=""
+                  class="response__image"
+                />
+                <div class="response__text">Скоростной интернет</div>
+              </div>
+
+              <div class="response__item block">
+                <img
+                  src="./images/Ellipse 9.svg"
+                  alt=""
+                  class="response__image"
+                />
+                <div class="response__text">Домашняя кухня</div>
+              </div>
+
+              <div class="response__item block">
+                <img
+                  src="./images/Ellipse 10.svg"
+                  alt=""
+                  class="response__image"
+                />
+                <div class="response__text">Бесплатная парковка</div>
+              </div>
+
+              <div class="response__item block">
+                <img
+                  src="./images/Ellipse 9.svg"
+                  alt=""
+                  class="response__image"
+                />
+                <div class="response__text">Скоростной интернет</div>
+              </div>
+
+              <div class="response__item block">
+                <img
+                  src="./images/Ellipse 10.svg"
+                  alt=""
+                  class="response__image"
+                />
+                <div class="response__text">Домашняя кухня</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============== Hotel Gallary start=============== -->
+        <section class="gallery">
+          <div class="gallery__container container">
+            <div class="gallery__title main__title">
+              Отель расположен в самой живописной локации Ялты
+            </div>
+            <div class="gallery__items">
+              <img src="./images/photo1.jpg" alt="" class="gallery__item" />
+              <img src="./images/photo2.jpg" alt="" class="gallery__item" />
+              <img src="./images/photo3.jpg" alt="" class="gallery__item" />
+              <img src="./images/photo4.jpg" alt="" class="gallery__item" />
+            </div>
+            <div class="gallery__button">
+              <div class="button">Смотреть больше фото</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ Presentation section qilinadi =========== -->
+        <section class="presentation">
+          <div class="presentation__container container">
+            <h2 class="presentation__title main__ti tle">
+              Посмотрите видео-презентацию
+            </h2>
+            <div class="presentation__image">
+              <img src="./images/presentation.jpg" alt="presentation" />
+              <img src="./images/play.jpg" alt="play" class="play__image" />
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ Relax section start  qilinadi=========== -->
+        <section class="relax">
+          <div class="relax__container container">
+            <div class="relax__wrapper block">
+              <div class="relax__content">
+                <div class="relax__title main__title">Как отдохнуть?</div>
+                <div class="relax__text main__desc">
+                  <p>
+                    Усадьба «Миневичи» создана для тех, кто устал от шума и
+                    загазованного воздуха города и желает отдохнуть в красивом
+                    уголке природы, не расставаясь с привычным комфортом.
+                  </p>
+                  <p>
+                    В усадьбе хорошо и спокойно проводить время с семьей,
+                    друзьями и коллегами. Первозданная природа, отличный сервис,
+                    повышенный комфорт, гостеприимная атмосфера — всё это делает
+                    отдых в этом месте по-настоящему качественным.
+                  </p>
+                </div>
+              </div>
+
+              <div class="relax__image block">
+                <img src="./images/rest_image.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========== Feedbakc Section start =============== -->
+        <section class="feedback">
+          <div class="feedback__container container">
+            <div class="feedback__title main__title">Клиенты о нас</div>
+            <div class="feedback__items">
+              <div class="feedback__item block">
+                <div class="feedback__rating">
+                  <div class="feedback__icon">
+                    <img src="./images/yandex.svg" alt="" />
+                  </div>
+                  <div class="feedback__grade">5/5</div>
+                </div>
+                <div class="feedback__comment main__desc">
+                  Были в апреле, ловили воблу, всё очень понравилось, место,
+                  персонал, удобства, стояли в палатке, решили приехать сюда в
+                  конце сентября. Елена и Сергей из Нижегородской области,
+                  отдельное спасибо хозяйке Юле
+                </div>
+                <div class="feedback__info">
+                  <div class="feedback__icon">
+                    <img src="./images/nikita.png" alt="" />
+                  </div>
+                  <div class="feedback__data">
+                    <div class="feedback__name">Никита Толмачев</div>
+                    <div class="feedback__date">28 сентября 2021</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feedback__item block">
+                <div class="feedback__rating">
+                  <div class="feedback__icon">
+                    <img src="./images/google.svg" alt="" />
+                  </div>
+                  <div class="feedback__grade">5/5</div>
+                </div>
+                <div class="feedback__comment main__desc">
+                  Были в апреле, ловили воблу, всё очень понравилось, место,
+                  персонал, удобства, стояли в палатке, решили приехать сюда в
+                  конце сентября. Елена и Сергей
+                  <span>Открыть полностью</span>
+                </div>
+                <div class="feedback__info">
+                  <div class="feedback__icon">
+                    <img src="./images/nikita.png" alt="" />
+                  </div>
+                  <div class="feedback__data">
+                    <div class="feedback__name">Никита Толмачев</div>
+                    <div class="feedback__date">28 сентября 2021</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feedback__item block">
+                <div class="feedback__rating">
+                  <div class="feedback__icon">
+                    <img src="./images/yandex.svg" alt="" />
+                  </div>
+                  <div class="feedback__grade">5/5</div>
+                </div>
+                <div class="feedback__comment main__desc">
+                  Были в апреле, ловили воблу, всё очень понравилось, место,
+                  персонал, удобства, стояли в палатке, решили приехать сюда в
+                  конце сентября. Елена и Сергей
+                  <span>Открыть полностью</span>
+                </div>
+                <div class="feedback__info">
+                  <div class="feedback__icon">
+                    <img src="./images/andrey.png" alt="" />
+                  </div>
+                  <div class="feedback__data">
+                    <div class="feedback__name">Никита Толмачев</div>
+                    <div class="feedback__date">28 сентября 2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="feedback__button">
+              <div class="feedback__btn button">Больше отзывов</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================== Location start qilinadi ================ -->
+        <section class="location">
+          <div class="location__container container">
+            <div class="location__wrapper">
+              <div class="location__image">
+                <img src="./images/location.png" alt="" />
+                <div class="location__text">
+                  <div class="main__title location__title">Наш адрес</div>
+                  <div class="main__desc">
+                    Апарт-отель «SkyPlazaYalta» расположен по адресу г. Ялта,
+                    ул. Дражинского 48В
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================== Contact start qilinadi ================ -->
+        <section class="contact">
+          <div class="contact__container container">
+            <div class="contact__text main__title">Связаться с нами</div>
+            <div class="contact__icons">
+              <div>
+                <img src="./images/pochta.png" alt="" />
+              </div>
+              <div>
+                <img src="./images/by_phone.png" alt="" />
+              </div>
+              <div>
+                <img src="./images/watsapp.png" alt="" />
+              </div>
+              <div>
+                <img src="./images/telegram.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container container block">
+          <div class="footer__top">
+            <div class="footer__logo">
+              <img src="./images/logo.png" alt="" />
+            </div>
+            <a class="footer__number">+7 (950) 477-73-65</a>
+          </div>
+          <div class="footer__bottom">
+            <a class="menu__list-text link" href="#">Забронировать</a>
+            <nav class="header__menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="link">О нас</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="link">Апартаменты</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="link">Как добраться</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="link">Отзывы</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <a href="#" class="footer__politic link"
+              >Политика конфиденциальности</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
